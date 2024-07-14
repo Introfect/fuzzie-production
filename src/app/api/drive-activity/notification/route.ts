@@ -1,3 +1,4 @@
+"use client"
 import { postContentToWebHook } from '@/app/(main)/(pages)/connections/_actions/discord-connection'
 import { onCreateNewPageInDatabase } from '@/app/(main)/(pages)/connections/_actions/notion-connection'
 import { postMessageToSlack } from '@/app/(main)/(pages)/connections/_actions/slack-connection'
